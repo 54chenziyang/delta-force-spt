@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Haavk.Client</AssemblyName>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <Nullable>disable</Nullable>
+    <NoWarn>CS0108;CS0114;CS0169;CS0649;CS0414;CS0162;CS0219;CS8632;CS1591;CS0618;CS0067;CS0472;CS0184</NoWarn>
+    <GameDir>D:\escape\EscapeFromTarkov</GameDir>
+    <ManagedDir>D:\escape\EscapeFromTarkov\EscapeFromTarkov_Data\Managed</ManagedDir>
+    <BepCore>D:\escape\EscapeFromTarkov\BepInEx\core</BepCore>
+    <SptPlug>D:\escape\EscapeFromTarkov\BepInEx\plugins\spt</SptPlug>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Haavk.Core">
+      <HintPath>..\Haavk.Core\bin\Release\netstandard2.1\Haavk.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx"><HintPath>$(BepCore)\BepInEx.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(BepCore)\0Harmony.dll</HintPath></Reference>
+    <Reference Include="spt-reflection"><HintPath>$(SptPlug)\spt-reflection.dll</HintPath></Reference>
+    <Reference Include="spt-common"><HintPath>$(SptPlug)\spt-common.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>$(ManagedDir)\Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="Comfort"><HintPath>$(ManagedDir)\Comfort.dll</HintPath></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>$(ManagedDir)\Unity.TextMeshPro.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>$(ManagedDir)\UnityEngine.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>$(ManagedDir)\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.IMGUIModule"><HintPath>$(ManagedDir)\UnityEngine.IMGUIModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.PhysicsModule"><HintPath>$(ManagedDir)\UnityEngine.PhysicsModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.AudioModule"><HintPath>$(ManagedDir)\UnityEngine.AudioModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule"><HintPath>$(ManagedDir)\UnityEngine.UnityWebRequestModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule"><HintPath>$(ManagedDir)\UnityEngine.UnityWebRequestAudioModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>$(ManagedDir)\UnityEngine.UI.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.TextRenderingModule"><HintPath>$(ManagedDir)\UnityEngine.TextRenderingModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.ImageConversionModule"><HintPath>$(ManagedDir)\UnityEngine.ImageConversionModule.dll</HintPath></Reference>
+    <Reference Include="ItemComponent.Types"><HintPath>$(ManagedDir)\ItemComponent.Types.dll</HintPath></Reference>
+    <Reference Include="ItemTemplate.Types"><HintPath>$(ManagedDir)\ItemTemplate.Types.dll</HintPath></Reference>
+    <Reference Include="Sirenix.Serialization"><HintPath>$(ManagedDir)\Sirenix.Serialization.dll</HintPath></Reference>
+    <Reference Include="Sirenix.Utilities"><HintPath>$(ManagedDir)\Sirenix.Utilities.dll</HintPath></Reference>
+    <Reference Include="Newtonsoft.Json"><HintPath>$(ManagedDir)\Newtonsoft.Json.dll</HintPath></Reference>
+    <Reference Include="bsg.console.core"><HintPath>$(ManagedDir)\bsg.console.core.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

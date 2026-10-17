@@ -1,0 +1,20 @@
+# 构建产物
+bin/
+obj/
+out/
+*.dll
+*.pdb
+*.exe
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# 日志与临时文件
+*.log
+*.tmp
+source.zip
+Thumbs.db
+.DS_Store

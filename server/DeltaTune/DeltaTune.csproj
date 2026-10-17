@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>DeltaTune</AssemblyName>
+    <RootNamespace>DeltaTune</RootNamespace>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SPTarkov.Server.Core"><HintPath>D:\escape\EscapeFromTarkov\SPT_Runtime\SPTarkov.Server.Core.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.Reflection"><HintPath>D:\escape\EscapeFromTarkov\SPT_Runtime\SPTarkov.Reflection.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.DI"><HintPath>D:\escape\EscapeFromTarkov\SPT_Runtime\SPTarkov.DI.dll</HintPath></Reference>
+    <Reference Include="SPTarkov.Common"><HintPath>D:\escape\EscapeFromTarkov\SPT_Runtime\SPTarkov.Common.dll</HintPath></Reference>
+    <Reference Include="SemanticVersioning"><HintPath>D:\escape\EscapeFromTarkov\SPT_Runtime\SemanticVersioning.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

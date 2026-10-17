@@ -1,0 +1,42 @@
+本目录（Haavk 服务端半边）是 MIT 作品的衍生作品：
+
+Item Valuation 2.0.1 —— 本目录全部功能的移植来源
+https://hub.sp-tarkov.com/files/file/2789-item-valuation/
+Copyright (c) 2026 acidphantasm
+
+移植与重构范围（2026-08-26，完整记录见 docs/plans/ItemValuation移植重构.md）：
+- 结构重组：档位阶梯、上色决策、描述行拼装、双语标签抽入 Haavk.Core（配单测）
+- 三处精简：移除商人价子系统、移除 ShortName 微型标注、
+  SuppressWeaponDescriptionPrice 行为固化（武器描述价永久由客户端实时计算）
+- 两处结构修正：每小时刷新循环换 Task.Delay 并补异常兜底；Nullable disable
+- 此前以 vendor 形式携带的汉化补丁（按语言各取原文防串味、单行价格、禁售标记、
+  transformer 合并）一并保留
+- WeaponTotal 价格表路由为本项目原创代码，非上游衍生
+
+按 MIT 要求，以下版权声明与许可全文随衍生作品一并保留。
+本目录内的修改部分同样以 MIT 发布。
+
+---
+
+MIT License
+
+Copyright (c) 2026 acidphantasm
+Copyright (c) 2026 liujiaxing (modifications)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

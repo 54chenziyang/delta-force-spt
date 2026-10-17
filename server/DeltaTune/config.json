@@ -1,0 +1,83 @@
+{
+  "Knife": {
+    "Enabled": true,
+    "Tiers": [
+      { "Name": "T6", "Rarity": "神话/红", "Reference": "挽歌 S10",   "SlashDamage": 70, "StabDamage": 96, "SlashPenetration": 44, "StabPenetration": 50, "SlashSpeedMultiplier": 1.50, "StabSpeedMultiplier": 1.28, "SlashRange": 1.20, "StabRange": 1.30, "HitRadius": 1.10 },
+      { "Name": "T5", "Rarity": "传说/金", "Reference": "暗星 S8",    "SlashDamage": 63, "StabDamage": 88, "SlashPenetration": 38, "StabPenetration": 44, "SlashSpeedMultiplier": 1.43, "StabSpeedMultiplier": 1.22, "SlashRange": 1.05, "StabRange": 1.15, "HitRadius": 0.95 },
+      { "Name": "T4", "Rarity": "史诗/紫", "Reference": "北极星 S5",  "SlashDamage": 58, "StabDamage": 80, "SlashPenetration": 33, "StabPenetration": 39, "SlashSpeedMultiplier": 1.36, "StabSpeedMultiplier": 1.16, "SlashRange": 0.90, "StabRange": 1.00, "HitRadius": 0.80 },
+      { "Name": "T3", "Rarity": "稀有/蓝", "Reference": "怜悯 S2",    "SlashDamage": 54, "StabDamage": 74, "SlashPenetration": 28, "StabPenetration": 34, "SlashSpeedMultiplier": 1.30, "StabSpeedMultiplier": 1.11, "SlashRange": 0.75, "StabRange": 0.85, "HitRadius": 0.65 },
+      { "Name": "T2", "Rarity": "精良/绿", "Reference": "黑鹰 S0",    "SlashDamage": 50, "StabDamage": 68, "SlashPenetration": 24, "StabPenetration": 30, "SlashSpeedMultiplier": 1.25, "StabSpeedMultiplier": 1.06, "SlashRange": 0.60, "StabRange": 0.70, "HitRadius": 0.50 },
+      { "Name": "T1", "Rarity": "普通/白", "Reference": "战术匕首 S0", "SlashDamage": 46, "StabDamage": 62, "SlashPenetration": 20, "StabPenetration": 26, "SlashSpeedMultiplier": 1.20, "StabSpeedMultiplier": 1.02, "SlashRange": 0.45, "StabRange": 0.55, "HitRadius": 0.35 }
+    ],
+    "Assignments": {
+      "T6": [
+        "63495c500c297e20065a08b1",
+        "679ba90d269ddfea47012159",
+        "6087e570b998180e9f76dc24"
+      ],
+      "T5": [
+        "664a5428d5e33a713b622379",
+        "601948682627df266209af05",
+        "5bffe7930db834001b734a39",
+        "5bffdd7e0db834001b734a1a"
+      ],
+      "T4": [
+        "5bc9c1e2d4351e00367fbcf0",
+        "6540d2162ae6d96b540afcaf",
+        "5bead2e00db834001c062938",
+        "670ad7f1ad195290cd00da7a",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7"
+      ],
+      "T3": [
+        "674d90b55704568fe60bc8f5",
+        "5c0126f40db834002a125382",
+        "5c012ffc0db834001d23f03f",
+        "57cd379a24597778e7682ecf"
+      ],
+      "T2": [
+        "5c07df7f0db834001b73588a",
+        "5fc64ea372b0dd78d51159dc",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "5bffdc370db834001d23eca8"
+      ],
+      "T1": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09"
+      ]
+    },
+    "Overrides": {}
+  },
+  "Loot": {
+    "Enabled": true,
+    "GearTiers": [
+      { "Name": "普通", "MinGearValue": 0,      "Multiplier": 1.0, "GoldBonus": 0.00, "RedBonus": 0.00 },
+      { "Name": "机密", "MinGearValue": 150000, "Multiplier": 1.6, "GoldBonus": 0.35, "RedBonus": 0.25 },
+      { "Name": "绝密", "MinGearValue": 400000, "Multiplier": 2.3, "GoldBonus": 0.60, "RedBonus": 0.50 }
+    ],
+    "GoldPriceThreshold": 150000,
+    "RedPriceThreshold": 500000,
+    "MaxRareWeightFactor": 6.0,
+    "LooseLuckFactor": 0.15,
+    "RareLuckFactor": 0.5,
+    "KillLuck": 0.10,
+    "LossLuckPerMillion": 0.5,
+    "LuckCap": 3.0,
+    "LuckDecayPerRaid": 0.2
+  },
+  "Combat": {
+    "Enabled": true,
+    "HipInnaccuracyMultiplier": 2.0,
+    "RecoilDispersionMultiplier": 1.0,
+    "GlobalDamageDegradationCoefficient": 0.7,
+    "PlayerHealthMultiplier": 1.15,
+    "AmmoDamageMultiplier": 0.9
+  },
+  "BotScatter": {
+    "Enabled": true,
+    "Multiplier": 2.0,
+    "Fields": [],
+    "BotTypes": []
+  }
+}
