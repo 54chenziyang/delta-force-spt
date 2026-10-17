@@ -13,8 +13,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Unpack archive
         run: |
-          unzip -o source.zip -d .
-          rm -f source.zip
+          unzip -o delta-force-spt-source.zip -d .
+          rm -f delta-force-spt-source.zip
       - name: Commit extracted sources
         run: |
           git config user.name "github-actions[bot]"
